@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/192ca2a21a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html">
+          <img src="images/logo.png" class="logo" />
+        </a>
+        <ul>
+          <li><img src="images/notification.png" /></li>
+          <li><img src="images/inbox.png" /></li>
+          <li><img src="images/video.png" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/pp-4.png" />
+        </div>
+      </div>
+
+      <!-- Settings  -->
+      <div class="settings-menu">
+        <div id="theme-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/pp-4.png" />
+            <div>
+              <p>Justin Henderson</p>
+              <a href="profile.html">Your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve our service</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Log Out <img src="images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Ends -->
+
+    <!-- Profile Page -->
+
+    <div class="profile-container">
+      <img src="images/cover3.jpg" class="cover-img" />
+      <div class="profile-details">
+        <div class="pd-left">
+          <div class="pd-row">
+            <img src="images/pp-4.png" class="profile-image" />
+            <div>
+              <h3>Justin Henderson</h3>
+              <p>120 Friends - 15 mutual</p>
+              <img src="images/photo-16.jpg" class="frnd" />
+              <img src="images/photo-8.jpg" class="frnd" />
+              <img src="images/photo-20.jpg" class="frnd" />
+              <img src="images/photo-1.jpg" class="frnd" />
+            </div>
+          </div>
+        </div>
+        <div class="pd-right">
+          <button type="button">
+            <img src="images/add-friends.png" /> Friend
+          </button>
+          <button type="button">
+            <img src="images/message.png" /> Message
+          </button>
+          <br />
+          <a href="#"><img src="images/more.png" /></a>
+        </div>
+      </div>
+
+      <div class="profile-information">
+        <div class="info-col">
+          <div class="profile-intro">
+            <h3>Intro</h3>
+            <p class="intro-text">
+              I Do not Have an Attitude Problem I Just Have Personality😎😉
+            </p>
+            <hr />
+            <ul>
+              <li><img src="images/profile-job.png" /> Software Engineer</li>
+              <li>
+                <img src="images/profile-study.png" /> Studied at Oxford
+                University
+              </li>
+              <li>
+                <img src="images/profile-study.png" /> Went to Carnegie Vanguard
+                High School
+              </li>
+              <li><img src="images/profile-home.png" /> Lives in Ohio, USA</li>
+              <li>
+                <img src="images/profile-location.png" /> From California, USA
+              </li>
+            </ul>
+          </div>
+
+          <div class="profile-intro">
+            <div class="album">
+              <h3>Photos</h3>
+              <a href="#">All Photos</a>
+            </div>
+            <div class="photo-album">
+              <div><img src="images/photo-1.jpg" /></div>
+              <div><img src="images/photo-2.jpg" /></div>
+              <div><img src="images/photo-3.jpg" /></div>
+              <div><img src="images/photo-4.jpg" /></div>
+              <div><img src="images/photo-5.jpg" /></div>
+              <div><img src="images/photo-6.jpg" /></div>
+            </div>
+          </div>
+
+          <div class="profile-intro">
+            <div class="album">
+              <h3>Friends</h3>
+              <a href="#">All Friends</a>
+            </div>
+            <p>120 - 10 Mutual</p>
+            <div class="friends-album">
+              <div>
+                <img src="images/photo-8.jpg" class="collage" />
+                <p>Alice P</p>
+              </div>
+              <div>
+                <img src="images/photo-14.jpg" class="collage" />
+                <p>Nathan N</p>
+              </div>
+              <div>
+                <img src="images/photo-15.jpg" class="collage" />
+                <p>Gorge D</p>
+              </div>
+              <div>
+                <img src="images/photo-16.jpg" class="collage" />
+                <p>Francis L</p>
+              </div>
+              <div>
+                <img src="images/photo-17.jpg" class="collage" />
+                <p>Anthony E</p>
+              </div>
+              <div>
+                <img src="images/photo-21.jpg" class="collage" />
+                <p>Madeleine P</p>
+              </div>
+              <div>
+                <img src="images/photo-20.jpg" class="collage" />
+                <p>Edward M</p>
+              </div>
+              <div>
+                <img src="images/photo-10.jpg" class="collage" />
+                <p>Lucia C</p>
+              </div>
+              <div>
+                <img src="images/photo-1.jpg" class="collage" />
+                <p>James D</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="post-col">
+          <div class="write-post-container">
+            <div class="user-profile">
+              <img src="images/pp-4.png" />
+              <div>
+                <p>Justin Henderson</p>
+                <small>Public <i class="fa-solid fa-caret-down"></i></small>
+              </div>
+            </div>
+
+            <div class="post-input-container">
+              <textarea
+                rows="3"
+                placeholder="What's in your mind, Justin"
+              ></textarea>
+
+              <div class="post-links">
+                <a href="#"><img src="images/live-video.png" /> Live Video</a>
+                <a href="#"><img src="images/photo.png" /> Photo/Video</a>
+                <a href="#"
+                  ><img src="images/feeling.png" /> Feeling/Activity</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Posts  -->
+          <div class="post-container">
+            <div class="post-like">
+              <div class="user-profile">
+                <img src="images/pp-4.png" />
+                <div>
+                  <p>Justin Henderson</p>
+                  <span>June 26 2017, 14:35 pm</span>
+                </div>
+              </div>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i
+              ></a>
+            </div>
+            <p class="post-text">
+              Lorem ipsum<span> sit amet consectetur </span> adipisicing elit.
+              Numquam veritatis architecto.
+              <a href="#">#Masti Time</a>
+              <a href="#">#Hangout with Friends </a>
+              <img src="images/img-6.jpeg" class="post-img" />
+            </p>
+
+            <div class="post-like">
+              <div class="activity-icons">
+                <div><img src="images/like.png" />135</div>
+                <div><img src="images/comments.png" />45</div>
+                <div><img src="images/share.png" />15</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/pp-4.png" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-like">
+              <div class="user-profile">
+                <img src="images/pp-4.png" />
+                <div>
+                  <p>Justin Henderson</p>
+                  <span>January 17 2018, 10:15 am</span>
+                </div>
+              </div>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i
+              ></a>
+            </div>
+            <p class="post-text">
+              Lorem ipsum<span> sit amet consectetur </span> adipisicing elit.
+              Numquam veritatis architecto.
+              <a href="#">#Hangout with Friends </a>
+              <a href="#">#Nature Beauty</a>
+              <img src="images/img-7.jpg" class="post-img" />
+            </p>
+
+            <div class="post-like">
+              <div class="activity-icons">
+                <div><img src="images/like-blue.png" />105</div>
+                <div><img src="images/comments.png" />25</div>
+                <div><img src="images/share.png" />8</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/pp-4.png" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-like">
+              <div class="user-profile">
+                <img src="images/pp-4.png" />
+                <div>
+                  <p>Justin Henderson</p>
+                  <span>February 16 2018, 16:25 pm</span>
+                </div>
+              </div>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i
+              ></a>
+            </div>
+            <p class="post-text">
+              Lorem ipsum<span> sit amet consectetur </span> adipisicing elit.
+              Numquam veritatis architecto.
+              <a href="#">#Friends Forever</a>
+              <a href="#">#Chill Time</a>
+              <img src="images/img-8.jpg" class="post-img" />
+            </p>
+
+            <div class="post-like">
+              <div class="activity-icons">
+                <div><img src="images/like.png" />97</div>
+                <div><img src="images/comments.png" />34</div>
+                <div><img src="images/share.png" />16</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/pp-4.png" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-like">
+              <div class="user-profile">
+                <img src="images/pp-4.png" />
+                <div>
+                  <p>Justin Henderson</p>
+                  <span>December 18 2020, 15:45 pm</span>
+                </div>
+              </div>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i
+              ></a>
+            </div>
+            <p class="post-text">
+              Lorem ipsum<span> sit amet consectetur </span> adipisicing elit.
+              Numquam veritatis architecto.
+              <a href="#">#Good Morning</a>
+              <a href="#">#Study time</a>
+              <img src="images/img-9.jpg" class="post-img" />
+            </p>
+
+            <div class="post-like">
+              <div class="activity-icons">
+                <div><img src="images/like-blue.png" />70</div>
+                <div><img src="images/comments.png" />44</div>
+                <div><img src="images/share.png" />10</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/pp-4.png" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-like">
+              <div class="user-profile">
+                <img src="images/pp-4.png" />
+                <div>
+                  <p>Justin Henderson</p>
+                  <span>August 30 2018, 11:25 pm</span>
+                </div>
+              </div>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i
+              ></a>
+            </div>
+            <p class="post-text">
+              Lorem ipsum<span> sit amet consectetur </span> adipisicing elit.
+              Numquam veritatis architecto.
+              <a href="#">#Street Walk</a>
+              <a href="#">#Work Time</a>
+              <img src="images/image-10.jpg" class="post-img" />
+            </p>
+
+            <div class="post-like">
+              <div class="activity-icons">
+                <div><img src="images/like.png" />66</div>
+                <div><img src="images/comments.png" />29</div>
+                <div><img src="images/share.png" />19</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/pp-4.png" />
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright @ 2021, Kashish Rajput</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
