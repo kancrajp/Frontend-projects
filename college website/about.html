@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="about-header">
+      <nav>
+        <a href="index.html">
+          <img src="images/logo1.jpg" class="logo-img" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark icon" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars icon" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!---- Content ----->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the best University in Asia</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            unde harum itaque optio doloremque error ipsum dolore alias beatae
+            nihil quae sed quam voluptates nobis perferendis labore incidunt,
+            nihil quae sed quam voluptates nobis perferendis labore incidunt,
+            assumenda soluta voluptates nobis.
+          </p>
+          <a href="" class="para-btn about-btn">Explore More</a>
+        </div>
+        <div class="about-col">
+          <img src="images/about.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!---- Campus ----->
+
+    <!---- Testimonials ----->
+
+    <!---- Call to Action ----->
+
+    <!---- Footer ----->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit Rem
+        accusantium, necessitatibus asperiores <br />
+        quos voluptate id Lorem, ipsum necessitatibus asperiores quos voluptate
+        id.
+      </p>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook f-icon"></i>
+        <i class="fa-brands fa-twitter f-icon"></i>
+        <i class="fa-brands fa-linkedin f-icon"></i>
+        <i class="fa-brands fa-instagram f-icon"></i>
+      </div>
+      <p>Made By ❤ Kashish Rajput</p>
+    </section>
+
+    <!---- Java Script ----->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
